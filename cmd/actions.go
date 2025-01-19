@@ -51,5 +51,6 @@ func runGenerateActionsRunnerToken(c *cli.Context) error {
 		return handleCliResponseExtra(extra)
 	}
 	_, _ = fmt.Printf("%s\n", respText.Text)
+	
 	return nil
 }
