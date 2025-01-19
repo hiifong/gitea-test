@@ -116,4 +116,5 @@ func TestCanGithubEventMatch(t *testing.T) {
 			assert.Equalf(t, tc.expected, canGithubEventMatch(tc.eventName, tc.triggeredEvent), "canGithubEventMatch(%v, %v)", tc.eventName, tc.triggeredEvent)
 		})
 	}
+	
 }
